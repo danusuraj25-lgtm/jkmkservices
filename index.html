@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JKMK SERVICES LTD</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+header {
+    background: #0a1f44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #123a6b;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    background: linear-gradient(rgba(10,31,68,0.7), rgba(10,31,68,0.7)),
+    url('https://images.unsplash.com/photo-1553413077-190dd305871c');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.services, .products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background: #0a1f44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #0a1f44;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>JKMK SERVICES LTD</h1>
+    <p>Global General Trading Company</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Reliable Global Trading Solutions</h2>
+    <p>Import • Export • Wholesale • Logistics</p>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>JKMK SERVICES LTD is a professional general trading company delivering high-quality products and efficient supply chain solutions. We serve businesses locally and internationally with trust, reliability, and excellence.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Import & Export</h3>
+            <p>Seamless international trade services.</p>
+        </div>
+        <div class="card">
+            <h3>Wholesale Supply</h3>
+            <p>Bulk supply across multiple industries.</p>
+        </div>
+        <div class="card">
+            <h3>Logistics</h3>
+            <p>Fast and secure delivery worldwide.</p>
+        </div>
+    </div>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="card">
+            <h3>Electronics</h3>
+            <p>Consumer and industrial electronics.</p>
+        </div>
+        <div class="card">
+            <h3>Food Products</h3>
+            <p>Packaged and bulk food supplies.</p>
+        </div>
+        <div class="card">
+            <h3>Building Materials</h3>
+            <p>Construction and industrial materials.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@jkmkservices.com</p>
+    <p>Phone: +44 7000 000000</p>
+    <p>Location: London, United Kingdom</p>
+
+    <iframe 
+        src="https://maps.google.com/maps?q=London&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%" height="300" style="border:0;">
+    </iframe>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<a class="whatsapp" href="https://wa.me/447000000000" target="_blank">💬</a>
+
+<footer>
+    <p>© 2026 JKMK SERVICES LTD. All rights reserved.</p>
+</footer>
